@@ -4,32 +4,108 @@
 body{
     margin: 0;
     font-family: sans-serif;
-    background-color: rgb(237, 237, 198);
+    background-color: #5c5d61;
+}
+.control-text{
+    color: #ffff;
 }
 .header{
     padding: .1em 0;
     margin: 0 auto;
     text-align: center;
-    background-color: beige;
+    background-color: #7E7F83;
+    color: #000000;
     
 }
-.container{
+.main-container{
+    display: flex;
     margin: .5em auto;
+    width: 90%;
+    justify-content: space-between;
+}
+.container{
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 350px;
+    width: 980px;
+    
+}
+.controls-container{
+    width: 200px;
+    height: 500px;
+    padding: .5em;
+    text-align: center;
+    background-color: #747477;
+    margin-right: .5em;
+}
+hr{
+    border: 1px solid rgb(83, 80, 80);
 }
 .div-con{
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
 }
 .divs{
     background-color: rgb(255, 255, 255);
-    height: 3px;
+    height:31.25px;
     flex: 1 1 auto;
 }
 .divs:hover{
     background-color: black;
+}
+.reset-text{
+    background-color: rgb(228, 84, 84);
+    color: #cecaca;
+    padding: .5em;
+}
+.reset-text:hover{
+    background-color: rgb(236, 121, 121);
+    color: rgb(163, 39, 39);
+}
+.grid-btn-con{
+    text-align: center;
+    color: #ebe7e7;
+    background-color: rgb(34, 173, 173);
+    padding: .2em;
+}
+.grid-btn{
+    background-color: rgb(22, 126, 126);
+    color: rgb(15, 237, 237);
+    padding: .5em;
+}
+.grid-btn:hover{
+    background-color: rgb(51, 199, 199);
+    color: rgb(21, 102, 102);
+}
+.eraser-btn{
+    background-color: rgb(220, 227, 189);
+    color: rgb(53, 48, 48);
+    padding: .5em;
+    border-left: 90px solid rgb(228, 84, 84);
+}
+.eraser-btn:hover{
+    color: rgb(23, 21, 21);
+    border-left: 50px solid rgb(199, 52, 52);
+}
+.black-btn{
+    background-color: rgb(21, 22, 22);
+    color: rgb(240, 240, 240);
+    padding: .5em;
+}
+.black-btn:hover{
+    background-color: rgb(58, 59, 59);
+    color: rgb(225, 223, 223);
+}
+.rainbow-btn{
+    background: #e1eec3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f05053, #e1eec3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f05053, #e1eec3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(38, 34, 34);
+    padding: .5em;
+}
+.rainbow-btn:hover{
+    background: #22c1c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
