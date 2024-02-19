@@ -23,6 +23,7 @@ body{
     margin: .5em auto;
     width: 90%;
     justify-content: space-between;
+    max-width: 1200px;
 }
 .container{
     display: flex;
