@@ -14,7 +14,8 @@ body{
     margin: 0 auto;
     text-align: center;
     background-color: #7E7F83;
-    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #741b1b;
     
 }
 .main-container{
@@ -34,7 +35,7 @@ body{
     height: 500px;
     padding: .5em;
     text-align: center;
-    background-color: #747477;
+    background-color: #29292a;
     margin-right: .5em;
 }
 hr{
@@ -54,17 +55,17 @@ hr{
     background-color: black;
 }
 .reset-text{
-    background-color: rgb(228, 84, 84);
-    color: #cecaca;
+    background-color: rgb(228, 84, 84); 
+    color: #ffffff;
     padding: .5em;
 }
 .reset-text:hover{
-    background-color: rgb(236, 121, 121);
-    color: rgb(163, 39, 39);
+    background-color: rgb(217, 102, 102);
+      
 }
 .grid-btn-con{
     text-align: center;
-    color: #ebe7e7;
+    color: #ffffff;
     background-color: rgb(34, 173, 173);
     padding: .2em;
 }
@@ -81,20 +82,18 @@ hr{
     background-color: rgb(220, 227, 189);
     color: rgb(53, 48, 48);
     padding: .5em;
-    border-left: 90px solid rgb(228, 84, 84);
+    border-left: 20px solid rgb(228, 84, 84);
 }
 .eraser-btn:hover{
-    color: rgb(23, 21, 21);
-    border-left: 50px solid rgb(199, 52, 52);
+    border-left: 100px solid rgb(228, 84, 84);
 }
 .black-btn{
-    background-color: rgb(21, 22, 22);
-    color: rgb(240, 240, 240);
+    background-color: rgb(13, 13, 13);
+    color: rgb(225, 223, 223);
     padding: .5em;
 }
 .black-btn:hover{
-    background-color: rgb(58, 59, 59);
-    color: rgb(225, 223, 223);
+    color: rgb(255, 255, 255);
 }
 .rainbow-btn{
     background: #e1eec3;  /* fallback for old browsers */
