@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(237, 237, 198);
+}
+.header{
+    padding: .1em 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: beige;
+    
+}
+.container{
+    margin: .5em auto;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+}
+.div-con{
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+}
+.divs{
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    flex: 1 1 auto;
+}
+.divs:hover{
+    background-color: black;
+}
