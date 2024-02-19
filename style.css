@@ -82,10 +82,10 @@ hr{
     background-color: rgb(220, 227, 189);
     color: rgb(53, 48, 48);
     padding: .5em;
-    border-left: 20px solid rgb(228, 84, 84);
+    border-left: 30px solid rgb(254, 254, 254);
 }
 .eraser-btn:hover{
-    border-left: 100px solid rgb(228, 84, 84);
+    border-left: 100px solid rgb(255, 255, 255);
 }
 .black-btn{
     background-color: rgb(13, 13, 13);
