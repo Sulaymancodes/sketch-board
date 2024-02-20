@@ -81,9 +81,13 @@ hr{
 }
 .eraser-btn{
     background-color: rgb(220, 227, 189);
-    color: rgb(53, 48, 48);
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    font-weight: bold;
     padding: .5em;
     border-left: 30px solid rgb(254, 254, 254);
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
 }
 .eraser-btn:hover{
     border-left: 100px solid rgb(255, 255, 255);
