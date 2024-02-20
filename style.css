@@ -49,12 +49,11 @@ hr{
 }
 .divs{
     background-color: rgb(255, 255, 255);
-    height:31.25px;
+    height: var(--height-per-grid);
     flex: 1 1 auto;
+    border: 1px solid rgb(227, 223, 223);
 }
-.divs:hover{
-    background-color: black;
-}
+
 .reset-text{
     background-color: rgb(228, 84, 84); 
     color: #ffffff;
