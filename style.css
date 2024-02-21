@@ -28,11 +28,11 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    width: 980px;
+    width: 70%;
     
 }
 .controls-container{
-    width: 200px;
+    width: 30%;
     height: 500px;
     padding: .5em;
     text-align: center;
@@ -112,4 +112,19 @@ hr{
     background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+@media screen and (max-width: 760px){
+    .main-container{
+        display: block;
+    }
+    .container{
+        width: 90%;
+        margin: .5em auto;
+    }
+    .controls-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
 }
