@@ -30,6 +30,8 @@ function createGrid(){
         
                 //resetting all the divs color to white
                 resetBtn.addEventListener('click', () =>{
+                    divs.removeEventListener('mouseover', changeToBlack)
+                    divs.removeEventListener('mouseover', changeToRandomColor)
                     divs.style.backgroundColor = 'white';
                 });
         
@@ -42,16 +44,13 @@ function createGrid(){
         
                 //setting the divs to black
                 blackBtn.addEventListener('click', () =>{
-                    divs.addEventListener('mouseover', () =>{
-                        divs.style.backgroundColor = 'black';
-                    })
+                    divs.removeEventListener('mouseover', changeToRandomColor)
+                    divs.addEventListener('mouseover', changeToBlack)
                 })
         
                 //setting divs to rainbow colors
                 rainbowBtn.addEventListener('click', () => {
-                    divs.removeEventListener('mouseover', () => {
-                        divs.style.backgroundColor = 'black';
-                    });
+                    divs.removeEventListener('mouseover', changeToBlack)
                     document.querySelectorAll('.divs').forEach(div => {
                         div.addEventListener('mouseover', changeToRandomColor);
                     });
@@ -81,5 +80,9 @@ function changeToRandomColor(event) {
     // Set the background color of the div
     event.target.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
 } 
+
+function changeToBlack(event){
+    event.target.style.backgroundColor = 'black';
+}
 
 createGrid();
